@@ -61,6 +61,14 @@ span {
   border-bottom: 2px solid black;
   gap: 2vh;
 
+  h2 {
+    font-family: "Source Serif 4", serif;
+    color: black;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+  }
+
   p {
     font-weight: 600;
     font-family: "Source Sans 3", sans-serif;
@@ -72,6 +80,11 @@ span {
 
     #CV-link {
       text-decoration: underline;
+
+    }
+
+    a {
+      color: #00895A;
     }
   }
 
@@ -92,6 +105,14 @@ span {
   border-bottom: 2px solid black;
   gap: 3vh;
 
+  h2 {
+    font-family: "Source Serif 4", serif;
+    color: black;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+  }
+
   .projectImage {
     max-width: 80vw;
     border: 2px solid black;
@@ -106,7 +127,6 @@ span {
 
   .projContainer {
     max-width: 35vw;
-    max-height: 55vh;
     display: flex;
     flex-flow: column;
     align-items: center;
