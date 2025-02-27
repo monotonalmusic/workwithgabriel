@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="/css/burger.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Main</title>
+  </head>
+  <body>
+    <header>
+      <div class="burger" id="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="menu" id="menu">
+        <div class="close" id="close">&times;</div>
+        <h3>ABOUT ME</h3>
+        <h3>PORTFOLIO</h3>
+        <h3>CONTACT</h3>
+      </div>
+    </header>
+    <main>
+      <div class="container" id="heroContainer">
+        <img src="/images/Gabriel.jpeg" alt="" id="heroImage" />
+        <div id="heroText">
+          <h4>GABRIEL HUGHES</h4>
+          <h4>DEV / DESIGNER / CAPM</h4>
+        </div>
+      </div>
+      <div class="container" id="aboutContainer">
+        <p>Hi!</p>
+        <p class="aboutText">
+          I am a half Danish, half American fullstack developer/designer, with a
+          CAPM certification in project management.
+        </p>
+        <p class="aboutText">
+          I am comfortable in <span>HTML</span>, <span>CSS</span>,
+          <span>JS</span>, <span>React</span>, <span>Tailwind</span>,
+          <span>MongoDB</span>, <span>Wordpress</span> and more, though I’m
+          always willing to learn something new.
+        </p>
+        <p class="aboutText">
+          Here is a link to my <span id="CV-link">CV</span>.
+        </p>
+      </div>
+      <div class="container" id="projectsContainer">
+        <p>Take a look at some of the projects that I've worked on.</p>
+        <div id="projGrid">
+          <div class="projContainer">
+            <h4>VANLØSEBASEN</h4>
+            <a href="https://vanloese.dk/" target="_blank">
+              <img class="projectImage" src="images/vanloese.png" alt="" />
+            </a>
+            <div class="projText">
+              <h3><span>Wordpress</span></h3>
+              <p>Restructuring, redesign and development</p>
+            </div>
+          </div>
+          <div class="projContainer">
+            <h4>GITTES GLAMPING</h4>
+            <a
+              href="https://glamping-react-frontend.vercel.app"
+              target="_blank"
+            >
+              <img class="projectImage" src="images/glamping.png" alt="" />
+            </a>
+            <div class="projText">
+              <h3><span>React + MongoDB</span></h3>
+              <p>Front end on Vercel, backend on Render.com</p>
+            </div>
+          </div>
+          <div class="projContainer">
+            <h4>FREMTIDEN PROJECT</h4>
+            <a
+              href="https://monotonalmusic.github.io/fremtiden-v2/"
+              target="_blank"
+            >
+              <img class="projectImage" src="images/fremtiden.png" alt="" />
+            </a>
+            <div class="projText">
+              <h3><span>HTML, CSS, JS, GSAP</span></h3>
+              <p>A landing page about the future of AI, with GSAP animations</p>
+            </div>
+          </div>
+          <div class="projContainer">
+            <h4>VIBORG KLATREKLUB</h4>
+            <a
+              href="https://viborgklatreklub.dk//"
+              target="_blank"
+            >
+              <img class="projectImage" src="images/vkk.png" alt="" />
+            </a>
+            <div class="projText">
+              <h3><span>Wordpress (Gutenberg)</span></h3>
+              <p>A quick and navigable landing page</p>
+
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <div class="container" id="freetimeContainer">
+        <p id="freetimeText">
+          In my free time, I like to read, climb indoors and outdoors,
+          photograph things that peak my interest, and walk with my dog.
+        </p>
+        <img src="/images/BB.jpg" id="BBImage" alt="" />
+      </div>
+    </main>
+    <footer>
+      <div class="container" id="contactContainer">
+        <div id="SoMeContainer">
+          <div id="githubContainer" class="SoMeBox">
+            <img src="/images/github-mark.svg" alt="" />
+          </div>
+          <div id="linkedInContainer" class="SoMeBox">
+            <img src="/images/icons8-linkedin.svg" alt="" />
+          </div>
+        </div>
+        <div id="emailContainer">
+          <p id="emailText">gehughes28@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
