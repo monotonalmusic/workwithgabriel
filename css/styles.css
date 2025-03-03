@@ -110,6 +110,7 @@ span {
 }
 
 #projectsContainer {
+  text-align: center;
   min-width: 100%;
   min-height: 65vh;
   margin-top: 5vh;
