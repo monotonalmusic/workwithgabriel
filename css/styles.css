@@ -122,6 +122,14 @@ span {
   border-bottom: 2px solid black;
   gap: 3vh;
 
+  #projGrid {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+  }
+
   h2 {
     font-family: "Source Serif 4", serif;
     color: black;
@@ -279,9 +287,12 @@ footer {
 
 
   #projectsContainer {
+    margin-top: 10vh;
+    padding-bottom: 15vh;
     
     .projContainer {
       max-width: 35vw;
+      max-height: 50vh;
     }
 
 
@@ -300,11 +311,10 @@ footer {
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
-      gap: 5vh;
+      align-items: center;
+      gap: 15vh;
     }
-
-    margin-top: 10vh;
-    padding-bottom: 10vh;
+    
   }
 
   #freetimeContainer {
