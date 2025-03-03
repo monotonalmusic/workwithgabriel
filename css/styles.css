@@ -14,12 +14,17 @@ header {
 
 /* Bottom border div */
 .bottom-border-header {
+  display: block;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0%; /* Start at 0%, animate to 100% */
     height: 2px;
     background: black;
+}
+
+.bottom-border-header.hide {
+  display: none;
 }
 
 span {
@@ -137,7 +142,6 @@ span {
   }
 
   .projContainer {
-    max-width: 35vw;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -145,6 +149,7 @@ span {
 
     .projText {
       text-align: center;
+      width: 80%;
     }
 
     p {
@@ -270,7 +275,15 @@ footer {
     padding-bottom: 10vh;
   }
 
+
+
   #projectsContainer {
+    
+    .projContainer {
+      max-width: 35vw;
+    }
+
+
     .projectImage {
       max-height: 35vh; /* Ensure all images have the same height */
       max-width: 40vw; /* Reduce width for desktop screens */
